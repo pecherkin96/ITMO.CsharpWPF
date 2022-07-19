@@ -1,0 +1,16 @@
+﻿<Window x:Class="ITMO.CsharpWPF.Lab1._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ITMO.CsharpWPF.Lab1._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Set Name" HorizontalAlignment="Left" Margin="106,93,0,0" VerticalAlignment="Top" Width="122" RenderTransformOrigin="0.5,0.6" Height="43" Click="Button_Click"/>
+        <Button Content="Ret Name" HorizontalAlignment="Left" Margin="106,194,0,0" VerticalAlignment="Top" Width="122" RenderTransformOrigin="-0.607,0.575" Height="38" Click="Button_Click_1"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="30" Margin="407,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="288,194,0,0" VerticalAlignment="Top" Width="322"/>
+
+    </Grid>
+</Window>
